@@ -1,0 +1,18 @@
+{
+    "name": "hex_block",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "hex_block.ts",
+        "README.md"
+    ],
+    "targetVersions": {
+        "target": "6.0.15",
+        "pxt": "9.0.11"
+    },
+    "preferredEditor": "tsprj"
+}
