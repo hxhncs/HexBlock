@@ -179,7 +179,7 @@ namespace HexBlock {
     pins.digitalWritePin(chipSelect, 1)
 
     pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13)
-    // pins.spiPins(DigitalPin.P1, DigitalPin.P8, DigitalPin.P12)
+    // pins.spiPins(DigitalPin.P12, DigitalPin.P8, DigitalPin.P1)
     pins.spiFormat(8, 3)
     pins.spiFrequency(250000)
     
